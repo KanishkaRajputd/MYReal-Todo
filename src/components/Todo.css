@@ -1,0 +1,151 @@
+input{
+    height: 50px;
+    width:  60%;
+    margin-top: 30px;
+    background-color:rgb(146, 218, 241);
+    font-size: 35px;
+    border: 2px solid lightblue;
+    border-radius: 17px;
+    margin-right: 10px;
+
+ font-family: a;
+ font-weight: bold;
+}
+
+.Todo>button{
+background-color: rgb(238, 146, 113);
+border-radius: 13px;
+border: 2px solid  rgb(238, 146, 113);
+color: white;
+font-size: 20px;
+width: 40px;
+height: 40px;
+}
+
+input:hover{
+    background-color: purple;
+   color:gold;
+   border: 2px solid purple;
+   border-radius: 15px;
+   
+
+}
+.khushy{
+    color: gold;
+    font-family: a;
+    font-weight: bold;
+}
+.Todo>button:hover{
+    background-color: gold;
+    border: 2px solid gold;
+    color: grey;
+    cursor: pointer;
+}
+
+.text{
+    text-align: left;
+     margin-left:20px ;
+     font-family:a ;
+     color: gold;
+}
+.Maintodo{
+    border: 1px solid none;
+    width: 70%;
+    margin-left: 15%;
+    background-color: gold;
+    font-size: 40px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 70% 20%;
+    font-family: a;
+    font-weight:600;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+.Maintodo:hover{
+    background-color: coral;
+    color: gold;
+}
+.Maintodo>button{
+    border: 1px solid  gold;
+    background-color: coral;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: wheat;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Maintodo>button:hover{
+    background-color: teal;
+
+}
+.text>button{
+    background-color: rgb(245, 135, 94);
+    border: 2px solid rgb(248, 140, 101);
+   border-radius: 10px;
+   margin-left: 10px;
+   color: wheat;
+   font-weight: bold;
+   font-size: 18px;
+   
+}
+.text>button:hover{
+    background-color: gold;
+    color: teal;
+    border: 1px solid gold;
+}
+
+.delete{
+
+    border: 1px solid none;
+    width: 70%;
+    margin-left: 15%;
+    background-color:coral;
+    font-size: 40px;
+    margin-top: 10px;
+    text-decoration: line-through;
+    font-family: a;
+    font-weight:600;
+    border-radius: 18px;
+    margin-bottom: 10px;
+    color: gold;
+}
+.delete:hover{
+    background-color: gold;
+    color: teal;
+}
+@media screen and (min-width:0px) and (max-width:400px) {
+    input{
+        width: 70%;
+        font-size: 20px;
+        height: 30px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    .Maintodo>button{
+        
+        font-size: 9px;
+        border-radius: 10px;
+        
+    }
+    .text>button{
+        font-size: 10px;
+    }
+
+}
+@media screen and (min-width:400px) and (max-width:800px) {
+
+    input{
+        width: 70%;
+        font-size: 25px;
+        height: 40px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+
+}
+
